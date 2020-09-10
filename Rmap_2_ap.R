@@ -12,7 +12,7 @@ plot(Indo_gadm)
 
 plot(Indo_gadm, col = 'lightgrey', border = 'darkgrey')
 
-plot(Indo_gadm, col = 'forestgreen', border = 'lightgrey', xlim(94,142), ylim(-11,7.5))
+plot(Indo_gadm, col = 'forestgreen', border = 'lightgrey')
 
 myColours <- rep("forestgreen", 192)
 myColours[71] <- "red"
