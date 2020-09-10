@@ -30,7 +30,7 @@ View(global) #view the data and notice the column of long, lat, and group
 gg1 <- ggplot() + 
   geom_polygon(data = global, aes(x=long, y = lat, group = group), 
                fill = "gray85", color = "gray80") + 
-  coord_fixed(1.3) 
+  coord_fixed(1.0) 
 #you can change the "fill" (fill color) and the "color" (line color)
 
 print(gg1) #show the plot
